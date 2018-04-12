@@ -1,0 +1,6 @@
+interface AlertInterface
+{
+    template();
+
+    render();
+}
