@@ -1,7 +1,7 @@
 export default interface AlertOptions{
     title: string;
     message: string;
-    container: string;
+    container: HTMLElement;
     dismissible?: boolean;
     placement: InsertPosition;
 }
